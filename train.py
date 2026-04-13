@@ -64,9 +64,9 @@ parser.add_argument('--style_dir', type=str, required=True,
 parser.add_argument('--vgg', type=str, default='models/vgg_normalised.pth')
 
 # training options
-parser.add_argument('--save_dir', default='./experiments',
+parser.add_argument('--save_dir', default='output/training/checkpoints',
                     help='Directory to save the model')
-parser.add_argument('--log_dir', default='./logs',
+parser.add_argument('--log_dir', default='output/training/logs',
                     help='Directory to save the log')
 parser.add_argument('--lr', type=float, default=1e-4)
 parser.add_argument('--lr_decay', type=float, default=5e-5)
